@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+img{
+    width: 100%; /*This CSS rule is to show one image per row*/
+    margin-bottom: 10px;
+}
+
+h1{
+    color: green;
+}
+
+h2{
+    color: pink;
+}
+
+
+@media (min-width: 600px){
+    h1{
+        color: red;
+    }
+}
+
+
+@media (min-width: 576px){
+    img{
+        width: 49%; /*This is because of the whitespace characteristics */
+        /*This is to show 2 placeholder picture when the screen is greater than 992px*/
+    }
+}
+
+@media (min-width: 992px) { /*Taps into the cascading property of CSS*/
+    img{
+        width: 24%; /*This is to show 4 placeholder picture when the screen is greater than 992px*/
+    }
+    
+ }
