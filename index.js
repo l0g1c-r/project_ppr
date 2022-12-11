@@ -1,6 +1,6 @@
-const pxlSize = document.getElementById("pxlSize");
+const pic1 = document.getElementById("p1");
 
-window.onresize = () => pxlSize.textContent = window.innerWidth;
+pic1.onclick = () => alert("Stellenbosch shenanigans!!!");
 
 // window.onresize = () => {
 //     pxlSize.textContent = window.innerWidth;
